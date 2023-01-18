@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import HomePage from './pages/Home/HomePage';
 
 const name:string = "Marta"
 const age:number = 12
@@ -63,9 +64,7 @@ let myName = (name:string): string => `Hi ${name}`
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Taskify</h1>
-      </header>
+      <HomePage></HomePage>
     </div>
   );
 }
