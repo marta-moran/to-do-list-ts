@@ -10,6 +10,12 @@ let role:[number, string] //puede tener distintos tipos de datos
 //para que una variable admita dos tipos de datos
 let ageMarta: number | string
 
+//no usar any, usar unknown si no se el tipo de dato que será
+let result: unknown
+
+//void devuelve undefined y never no devuelve NADA
+// let printName: (name: string) => never
+
 type Person = {
   name: string,
   age: number // si quiero que sea opcional pongo age?
