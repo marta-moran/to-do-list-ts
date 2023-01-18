@@ -21,9 +21,26 @@ type Person = {
   age: number // si quiero que sea opcional pongo age?
 }
 
+// objeto normal
 const person: Person = {
   name:"Marta",
   age: 24
+}
+
+// interface
+interface Person_1 {
+  name: string,
+  age?: number
+}
+
+// puedo extender una interfaz a otra interfaz
+interface Guy extends Person_1 {
+  profession: String
+}
+
+// puedo extender una interfaz a un tipo
+type X = Person_1 & {
+  a: string
 }
 
 /*
