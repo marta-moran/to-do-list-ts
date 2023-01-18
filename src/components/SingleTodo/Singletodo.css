@@ -1,0 +1,36 @@
+.single__text {
+    font-size: 1.3em;
+    color: rgb(43, 43, 43);
+    padding: 5px;
+   
+}
+
+.todos__singles {
+    display: flex;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.3em;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 700px) {
+    .input{
+        width: 95%;
+    }
+    .todos{
+        width: 100%;
+    }
+    .todos__singles {
+        width: 100%;
+    }
+}
