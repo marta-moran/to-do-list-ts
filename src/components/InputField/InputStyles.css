@@ -22,7 +22,8 @@
     transition: 0.2s;
     right: 0px;
     color: rgb(255, 255, 255);
-    background-color: #282c34;
+    /* background-color: #282c34; */
+    background-color: rgb(239, 38, 109);
     margin: 12px
 }
 
